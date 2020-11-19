@@ -1,0 +1,42 @@
+{
+  "name": "phabtab",
+  "version": "0.5.4",
+  "author": "Stefanus Du Toit <sjdutoit@gmail.com> (http://sduto.it)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "archiver": "^5.0.2",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "jest": "^26.4.2",
+    "jest-chrome": "^0.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "dist": "node dist.js",
+    "fix": "npx standard --fix",
+    "lint:watch": "npx nodemon -q -x 'clear && npx standard'",
+    "lint": "npx standard",
+    "test:watch": "npx jest --watch",
+    "test": "npx jest"
+  },
+  "standard": {
+    "globals": [
+      "$",
+      "chrome",
+      "AbortController",
+      "fetch",
+      "DOMException"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./test/jest.setup.js"
+    ],
+    "clearMocks": true,
+    "resetMocks": true,
+    "verbose": true
+  }
+}
