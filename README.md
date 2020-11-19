@@ -4,6 +4,8 @@ A Chrome extension to keep track of your Phabricator reviews
 PhabTab is a small Chrome extension that makes it easier to stay
 on top of your reviews in Phabricator.
 
+<img src="phabtab-screenshot.png" width=320 height=200 alt="PhabTab Screenshot">
+
 ## Installation
 
 PhabTab is currently pending approval for publishing on the Chrome
