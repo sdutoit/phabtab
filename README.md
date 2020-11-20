@@ -8,11 +8,7 @@ on top of your reviews in Phabricator.
 
 ## Installation
 
-PhabTab is currently pending approval for publishing on the Chrome
-web store. Until then, you can manually install it by navigating to
-the [Chrome Extensions Settings](chrome://extensions) and enabling
-Developer Mode, then dragging the [latest release zip](https://github.com/sdutoit/phabtab/releases/latest)
-onto the settings page.
+You can install [PhabTab directly from the Chrome Web Store](https://chrome.google.com/webstore/detail/phabtab/cinddmkhbhepiikmhfgcdokabcdfnnnc).
 
 Upon installation the PhabTab options should automatically open.
 Enter your phabricator URL and an API token. To get an API token,
